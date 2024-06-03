@@ -1,4 +1,2 @@
-# esse código tá muito duvidoso
-
-for x in range(1, 8001, 10):
+for x in range(1, 8000, 10):
     print(x)

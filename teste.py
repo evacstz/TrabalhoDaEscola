@@ -7,7 +7,3 @@
 # ele vai atribuir as variavéis ou a gente?
 # pode exibir a variável e o tipo na mesma linha de código?
 # se a última coisa da frase for ponto faz oq?
-
-num = int(input("digite um número: "))
-for i in range(1,11,1):
-    print(f'{num} x {i} = {num * i} ')
