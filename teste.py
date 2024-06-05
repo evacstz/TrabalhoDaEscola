@@ -7,3 +7,12 @@
 # ele vai atribuir as variavéis ou a gente?
 # pode exibir a variável e o tipo na mesma linha de código?
 # se a última coisa da frase for ponto faz oq?
+
+hora = int(input("Digite um horário entre 0 e 23: "))
+
+if(hora <= 11):
+    print("O horário é manhã")
+elif(hora >= 12 <= 18):
+    print("O horário é tarde")
+else:
+    print("O horário é noite")
