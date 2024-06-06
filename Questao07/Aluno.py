@@ -8,7 +8,6 @@ print(f'A média do aluno é {m}')
 if(m >= 6):
     situacao = "aprovado"
     print(f'{nome} está {situacao} na disciplina de {disciplina}')
-
 else:
     situacao = "reprovado"
     print(f'{nome} está {situacao} na disciplina de {disciplina}')
